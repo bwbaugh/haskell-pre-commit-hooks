@@ -12,3 +12,8 @@ see <http://keepachangelog.com/>.
 **********
 Unreleased
 **********
+
+Added
+=====
+
+-   ``hlint`` hook.
