@@ -10,22 +10,29 @@ for use with the http://pre-commit.com/ framework.
 Hooks
 *****
 
+Most hooks can be installed with ``stack``.
+If not already available,
+`install stack
+<http://docs.haskellstack.org/en/stable/README/#how-to-install>`_.
+Then install the needed program
+e.g., to install ``hlint`` run:
+
+.. code-block:: bash
+
+    stack --resolver=nightly --install-ghc install hlint
+
 ``hlint``
 =========
 
 `HLint <https://github.com/ndmitchell/hlint>`_
 gives suggestions on how to improve your source code.
 
-Installation
-------------
+Install with stack.
 
-The ``hlint`` executable must be available on your path.
-If not already available,
-`install stack
-<http://docs.haskellstack.org/en/stable/README/#how-to-install>`_
-then install HLint:
+``stylish-haskell``
+===================
 
-.. code-block:: bash
+`stylish-haskell <https://github.com/jaspervdj/stylish-haskell>`_
+is a code prettifier.
 
-    stack setup
-    stack install hlint
+Install with stack.

@@ -4,3 +4,9 @@
     entry: hlint
     language: system
     files: '\.l?hs$'
+-   id: stylish-haskell
+    name: stylish-haskell
+    description: Haskell code prettifier.
+    entry: stylish-haskell --inplace
+    language: system
+    files: '\.l?hs$'
