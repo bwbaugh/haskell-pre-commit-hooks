@@ -15,6 +15,19 @@ Unreleased
 
 
 *******************
+v0.2.1 - 2017-04-06
+*******************
+
+Fixed
+=====
+
+-   Provide a ``.pre-commit-hooks.yaml`` file
+    for newer versions of ``pre-commit``
+    in addition to keeping ``hooks.yaml``
+    for backwards compatibility.
+
+
+*******************
 v0.2.0 - 2016-06-26
 *******************
 
