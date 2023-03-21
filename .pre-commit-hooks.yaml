@@ -11,8 +11,8 @@
     language: system
     files: '\.l?hs$'
 -   id: hlint-suggestions-ignore-duplication
-    name: hlint-suggestions
-    description: HLint gives suggestions on how to improve your source code, but still returns zero exti code.
+    name: hlint-suggestions-ignore-duplication
+    description: HLint gives suggestions on how to improve your source code, but still returns zero exti code while ignoring duplication.
     entry: hlint -i 'Reduce duplication' --no-exit-code 
     language: system
     files: '\.l?hs$'
