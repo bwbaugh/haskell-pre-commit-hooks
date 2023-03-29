@@ -4,6 +4,12 @@
     entry: hlint
     language: system
     files: '\.l?hs$'
+-   id: hlint-ignore-duplication
+    name: hlint-ignore-duplication
+    description: Runs HLint, but ignores duplications.
+    entry: hlint -i 'Reduce duplication'
+    language: system
+    files: '\.l?hs$'
 -   id: hlint-suggestions
     name: hlint-suggestions
     description: HLint gives suggestions on how to improve your source code, but still returns zero exti code.
